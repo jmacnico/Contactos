@@ -115,7 +115,7 @@ namespace WpfApplication1
                 workbook.SaveAs(@"c:\your-file-name.xls");
                 workbook.Close();
                 lstteste.ItemsSource = lstcontato;
-                MessageBox.Show("Ficheiro Guardado criado com suceeso em:\n\"c:\\your-file-name.xls\".")
+                MessageBox.Show("Ficheiro Guardado criado com suceeso em:\n\"c:\\your-file-name.xls\".");
             }
             catch (Exception ex)
             {
